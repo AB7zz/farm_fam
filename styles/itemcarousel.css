@@ -1,0 +1,18 @@
+.items {
+    width: 90%;
+    margin: 0px auto;
+    /* margin-top: 100px */
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black !important;
+}
