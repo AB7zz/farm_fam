@@ -24,6 +24,64 @@
     
 </head>
 <body>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', 
+                includedLanguages: 'et', 
+                autoDisplay: false
+            }, 'google_translate_element');
+            var a = document.querySelector("#google_translate_element select");
+            a.selectedIndex=1;
+            a.dispatchEvent(new Event('change'));
+        }
+    </script>
+    <script type="text/javascript"> 
+        function googleTranslateElementInit() { 
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'}, 
+                'google_translate_element'
+            ); 
+        } 
+    </script> 
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+    
+    <script type="text/javascript" src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+    <div class="alan-btn"></div>
+    <script type="text/javascript"
+    src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+    <script>
+        $(window).on('load', function() {
+            // $('.google-te-combo option[value="is"]');
+            $('.google-te-combo option[value=theOptionValue]').prop('selected', 'selected').change();
+            // console.log(document.getElementsByClassName('google-te-combo').value);
+            // document.getElementsByClassName('google-te-combo').value = 'is';
+            // console.log(document.getElementsByClassName('google-te-combo').value);
+        })
+        var alanBtnInstance = alanBtn({
+            key: "461f5d73c2d4073217b7ab703d6f0ef42e956eca572e1d8b807a3e2338fdd0dc/stage",
+            onCommand: function (commandData) {
+                if(commandData.command === "goBack"){
+                    console.log('HOLALAA MAIGOSS');
+                }else if(commandData.command === "translatePage"){
+                    console.log('Tranlsate');
+                }
+                else if(commandData.command === "openBuyer"){
+                    document.getElementById('buyerBtn').click();
+                }else if(commandData.command === "openSeller"){
+                    document.getElementById('sellerBtn').click();
+                }else if(commandData.command === "showAbout"){
+                    document.getElementById('clickAbout').click();
+                }else if(commandData.command === "showHow"){
+                    document.getElementById('clickHow').click();
+                }else if(commandData.command === "showTest"){
+                    document.getElementById('clickTest').click();
+                }
+            },
+            rootEl: document.getElementById("alan-btn"),
+        });
+    </script>
+     
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-custom">
         <a href="index.html"><a href="index.html"><img class="nav-logo" src="images/logo2.png" alt="logo"></a></a>
@@ -34,17 +92,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html#aboutus">About</a>
+                <a class="nav-link" href="#aboutus">Translate</a>
+                <div id="google_translate_element"></div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html#help">How it works</a>
+              <a class="nav-link" id="clickAbout" href="#aboutus">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                <a class="nav-link" id="clickHow" href="#help">How it works</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" id="clickTest" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Others
+                  Resources
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a style="color: black !important;" class="dropdown-item" href="weather.html">Weather Prediction</a>
