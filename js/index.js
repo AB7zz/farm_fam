@@ -3,6 +3,7 @@ const addCart1 = document.getElementById('addCart1');
 const addCart2 = document.getElementById('addCart2');
 const addCart3 = document.getElementById('addCart3');
 const cartQuant = document.getElementById('cartQuant');
+const send = document.getElementById('send');
 
 addCart1.addEventListener('click', () => {
     cartQuant.style.display = 'initial';
@@ -10,4 +11,8 @@ addCart1.addEventListener('click', () => {
 
 addCart2.addEventListener('click', () => {
     cartQuant.innerText = '2';
+})
+
+send.addEventListener('click', () => {
+    send.innerText = 'Sent'
 })

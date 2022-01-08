@@ -1,14 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
 
 
+*{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 body{
     background: #d0f0c0;
 }
 
 .bg-custom{
-    /* background-color: #000 !important; */
+    /* background-color: #55b425 !important; */
+    background-color: transparent !important;
+}
+
+.greennav{
     background-color: #55b425 !important;
+}
+
+.yellowbtn{
+    background-color: #1e5f18 !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 18px !important;
 }
 
 .navbar-brand{
@@ -20,18 +38,25 @@ body{
     color: white !important;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ 
 .btn-login{
-    background-color: #fde7ba !important;
+    /* background-color: #fde7ba !important; */
+    background-color: #55b425 !important;
 }
 
 .nav-logo{
-    width: 100px;
+    width: 170px;
+    margin-left: 30px;
     height: auto;
 }
 
 .nav-item{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 .page-footer{
@@ -230,3 +255,11 @@ body{
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; */
 }
 
+.contactCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    padding: 20px;
+}
+
+.contactContainer{
+    padding: 20px;
+}
