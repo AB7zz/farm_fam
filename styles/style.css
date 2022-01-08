@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+body{
+    background: #d0f0c0;
+}
+
+.bg-custom{
+    /* background-color: #000 !important; */
+    background-color: #55b425 !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 35px !important;
+}
+
+.nav-item a{
+    color: white !important;
+}
+
+.btn-login{
+    background-color: #fde7ba !important;
+}
+
+.nav-logo{
+    width: 100px;
+    height: auto;
+}
+
+.nav-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.page-footer{
+    background: black !important;
+}
+
+.footer-items h5, .footer-items p, .footer-items a{
+    color: white !important;
+}
+
+.footer-item a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.searchBox{
+    display: flex;
+    padding: 50px;
+}
+
+.productCard{
+    padding: 15px;
+}
+
+.quantity .input-text.qty{
+    max-width: 80%;
+}
+
+.quantity.buttons_added .minus, .quantity.buttons_added .plus{
+    max-width: 100%;
+}
+
+.viewadd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.quantity.buttons_added{
+    display: flex !important;
+    justify-content: center;
+    
+}
+
+.productImg{
+    height: 300px;
+}
+
+@media screen and (max-width: 992px){
+    .viewadd{
+        display: grid;
+    }
+    .productImg{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 768px){
+    .viewadd{
+        display: grid;
+    }
+    .productImg{
+        height: 130px;
+    }
+}
+
+.productBox{
+    
+}
+
+.productBtnBox{
+    display: block;
+}
+
+.catBox{
+    margin-bottom: 150px;
+}
+
+#cartQuant{
+    display: none;
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    padding: 3px 7px 3px 7px;
+    font-size: 13px;
+    color: white;
+}
+
+.cartTable{
+    /* margin-bottom: 500px;   */
+    padding: 25px;
+}
+
+.cartImg{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkoutBox{
+    padding: 15px;
+    background: #f2f2f2 !important;
+    margin-bottom: 50px;
+}
+
+
+.sellContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.sellingCard{
+    padding: 15px;
+    background: #f5f5f5 !important;
+    margin: 50px 0 50px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.preview-images-zone {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    min-height: 180px;
+    /* display: flex; */
+    padding: 5px 5px 0px 5px;
+    position: relative;
+    overflow:auto;
+}
+.preview-images-zone > .preview-image:first-child {
+    height: 185px;
+    width: 185px;
+    position: relative;
+    margin-right: 5px;
+}
+.preview-images-zone > .preview-image {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+.preview-images-zone > .preview-image > .image-zone {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .image-zone > img {
+    width: 100%;
+    height: 100%;
+}
+.preview-images-zone > .preview-image > .tools-edit-image {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+.preview-images-zone > .preview-image > .image-cancel {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+.preview-image:hover > .image-zone {
+    cursor: move;
+    opacity: .5;
+}
+.preview-image:hover > .tools-edit-image,
+.preview-image:hover > .image-cancel {
+    display: block;
+}
+.ui-sortable-helper {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.successUpload{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.successCard{
+    display: flex !important;
+    justify-content: center !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.card{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; */
+}
+

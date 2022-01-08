@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+#bg{
+    background-image: url(styles/background.jpeg);
+    min-height: 400px;
+    padding: 50px;
+
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    /* Needed to position the navbar */
+    /* position: relative; */
+}
+
+/* #buttons{
+    
+} */
+
+/* #navbar{
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 100;
+    transition: 0.3s;
+} */
+
+/* ul{
+    display:flex;
+    justify-content: center;
+    margin:0 ;
+    padding: 15px;  
+    list-style-type: none;
+}
+
+ul li a{
+    color:#fff;
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+} */
+
+/* section{
+    padding: 20px;
+    margin: 15px auto 0;
+} */
+
+.bg-violet{
+    /* background-color: rgb(80, 45, 207); */
+    background-color: #55b425;
+    color:black;
+}
+.bg-blue{
+    background-color: orange;
+    color: #fff;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+} */
+
+.tribute-info {
+    margin: 0 10px;
+    max-width: 450px;
+}
+  
+.responsive-img {
+    display: block;
+    max-width: 100%;
+}
+  
+.img-div p {
+    background-color: #eee;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+  
+.video-wrapper {
+    margin: 10px;
+}
+  
+.twitter-tweet {
+    max-width: 300px;
+}
+  
+.social-ul a {
+    font-size: 32px;
+}
+  
+footer{
+    background-color: black ;
+    color: #fff;   
+    padding: 15px;
+    text-align: center ; 
+}
+
+/* ############################################################################ */
+
+.btn-primary-custom{
+    background-color: #ccdf23 !important;
+    color: black !important;
+    font-size: 27px !important;
+    padding: 40px !important; 
+}
+
+/* .btn-primary-custom:focus{
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom{
+    transform: scale();
+} */
+
+.testimonialsSect{
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutus{
+    padding: 60px;
+}
+
+#help{
+    padding: 50px;
+}
+  
+#testimonials{
+    padding: 50px;
+}
+
+
+@media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+}
+
+
+
+
