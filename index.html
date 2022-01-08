@@ -74,15 +74,20 @@
             select.click();
                 }
                 else if(commandData.command === "openBuyer"){
-                    document.getElementById('buyerBtn').click();
+                    // document.getElementById('buyerBtn').click();
+                    window.location = "https://farmfam.netlify.app/shopping.html";
                 }else if(commandData.command === "openSeller"){
-                    document.getElementById('sellerBtn').click();
+                    // document.getElementById('sellerBtn').click();
+                    window.location = "https://farmfam.netlify.app/selling.html";
                 }else if(commandData.command === "showAbout"){
-                    document.getElementById('clickAbout').click();
+                    // document.getElementById('clickAbout').click();
+                    window.location = "https://farmfam.netlify.app/#aboutus";
                 }else if(commandData.command === "showHow"){
-                    document.getElementById('clickHow').click();
+                    // document.getElementById('clickHow').click();
+                    window.location = "https://farmfam.netlify.app/#help";
                 }else if(commandData.command === "showTest"){
-                    document.getElementById('clickTest').click();
+                    // document.getElementById('clickTest').click();
+                    window.location = "https://farmfam.netlify.app/#testimonials";
                 }
             },
             rootEl: document.getElementById("alan-btn"),
