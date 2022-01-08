@@ -23,6 +23,7 @@ fetch(latLng)
         })
         .then(function(data){
             console.log(data);
+            document.getElementById('loading').style.display = 'none';
             for(let i=0; i<7; i++){
                 console.log(data.dataseries[i]);
                 if(data.dataseries[i].wind10m_max==1){

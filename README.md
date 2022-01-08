@@ -1,5 +1,9 @@
 Test it out yourself: https://farmfam.netlify.app/
-Farm_fam web application guide to use
+
+# What is this?
+We have created a platform where farmers can sell their tools/vegetables/fruits or anything they use for agriculture purposes, to Consumers who buy in bulk for further manufacturing purposes or sell it to citizens.
+
+We have also integrated Alan AI in it to translate the website into Hindi, navigate through the website without using the mouse, etc. 
 
 # How to run the code
 1.Download the zip file.
@@ -11,5 +15,13 @@ Farm_fam web application guide to use
 1.In case, if u feel any difficulty to use the website there's a section called "How it works" in the navigation bar.
 2. Click the video to understand how the site works.
 3. Also if u any problems in understanding the language, it's AI supported (Alan-AI). You can directly communicate with it.
+
+# Tech-stacks used
+1. HTML, CSS & JS
+
+# API's used
+1. Alan AI
+2. 7timer - Weather forecase api
+3. ipgeolocation - Location tracking api
 
 Hope you like our web application and Happy coding! :)
