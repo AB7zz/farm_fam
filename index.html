@@ -73,18 +73,23 @@
     <script type="text/javascript"
  src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
     <script>
-    var alanBtnInstance = alanBtn({
-        key: "461f5d73c2d4073217b7ab703d6f0ef42e956eca572e1d8b807a3e2338fdd0dc/stage",
-        onCommand: function (commandData) {
-            if (commandData.command === "go:back") {
-                console.log('HOLAAA AMGISOSSS');
-            }else if(commandData.command === "consoleThisThing"){
-                console.log('HOLALAA MAIGOSS');
-            }
-        },
-        rootEl: document.getElementById("alan-btn"),
-    });
+        var alanBtnInstance = alanBtn({
+            key: "461f5d73c2d4073217b7ab703d6f0ef42e956eca572e1d8b807a3e2338fdd0dc/stage",
+            onCommand: function (commandData) {
+                if(commandData.command === "goBack"){
+                    console.log('HOLALAA MAIGOSS');
+                }else if(commandData.command === "translatePage"){
+                    console.log('TRanlsate');
+                }
+            },
+            rootEl: document.getElementById("alan-btn"),
+        });
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate');
+        }
     </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="translate"></div>
 
     <section id="bg">
         <div style="margin-top: 191px;">
