@@ -1,6 +1,8 @@
 Test it out yourself: https://farmfam.netlify.app/
 
 # What is this?
+*NOTE: This is just a demo project, we have not implemented any backend. So everything is static.*
+
 We have created a platform where farmers can sell their tools/vegetables/fruits or anything they use for agriculture purposes, to Consumers who buy in bulk for further manufacturing purposes or sell it to citizens.
 
 We have also integrated Alan AI in it to translate the website into Hindi, navigate through the website without using the mouse, etc. 
