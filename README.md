@@ -24,4 +24,13 @@ We have also integrated Alan AI in it to translate the website into Hindi, navig
 2. 7timer - Weather forecase api
 3. ipgeolocation - Location tracking api
 
-Hope you like our web application and Happy coding! :)
+
+# farm_fam Team:
+1. Abhinav CV
+2. Aarone George
+3. Malay Ghoshal
+
+
+For enquiries, just email me at abhinavcv007@gmail.comg
+
+Happy coding! :)
